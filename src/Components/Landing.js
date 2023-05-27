@@ -57,7 +57,9 @@ const Landing = () => {
   };
 
   useEffect(() => {
-    fetchWeatherData();
+    if (city.trim() !== "") {
+      fetchWeatherData();
+    }
   }, []);
 
   return (
