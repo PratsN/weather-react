@@ -1,0 +1,71 @@
+.search-box { 
+    display: flex;
+    justify-content:center;   
+}
+
+.city-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 400px;
+    max-height: 300px;
+    padding-top: 2rem;
+   
+}
+
+.city-name {
+    font-size: 35px;
+   
+}
+
+.city-details {
+    font-size: 20px;
+}
+
+.temperature {
+    
+    font-size: 45px;
+    font-weight: 400;
+}
+
+img {
+    margin-top: 20px;
+    height: 40px;
+    width : 40px
+}
+
+.other-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    font-size: 18px;
+}
+
+@media (max-width: 500px) {
+    .city-details {
+        max-width: 300px;   
+    }
+    .search-box { 
+        margin : auto;
+        max-width: 350px;    
+    }
+    .city-name {
+        font-size: 25px;
+       
+    }
+    
+    .city-details {
+        font-size: 15px;
+    }
+    
+    .temperature {
+        
+        font-size: 30px;
+        font-weight: 200;
+    }
+}
+
+
+
